@@ -57,6 +57,7 @@ h1, p {
     margin-top: 24px;
     font-family: "Outfit", sans-serif;
     text-align: center;
+    display: none;
 }
 
 .attribution a{ 
