@@ -1,0 +1,61 @@
+body,html{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;   
+}
+
+body{
+    background-color: #D5E1EF;
+}
+
+h1, p {
+    margin: 0;
+}
+
+.main_container{
+    background-color: #FFF;
+    border-radius: 20px;
+    max-width: 320px;
+    width: 320px;
+    position: absolute;
+    right: 50%;
+    top: 50%;
+    padding: 16px 16px 40px;
+    transform: translate(50%, -50%);
+}
+
+.qr_code{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.header{
+    color: #1F314F;
+    font-size: 22px;
+    font-family: "Outfit", sans-serif;
+    letter-spacing: 0px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20px;
+    text-indent: 1;
+}
+
+.description{
+    color: #7D889E;
+    text-align: center;
+    font-size: 15px;
+    font-family: "Outfit", sans-serif;
+    letter-spacing: 0.19px;
+    text-indent: 1;
+    margin-top: 16px;
+}
+
+.attribution{
+    margin-top: 24px;
+    font-family: "Outfit", sans-serif;
+    text-align: center;
+}
+
+.attribution a{ 
+    color: hsl(228, 45%, 44%); 
+}
